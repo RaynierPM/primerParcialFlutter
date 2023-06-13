@@ -1,0 +1,7 @@
+{
+  "name": "primer_parcial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
