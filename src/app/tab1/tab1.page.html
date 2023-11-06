@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Inicio <ion-icon name="Home"></ion-icon>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,19 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Inicio</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list style="display: flex; align-items: center; flex-direction: column;">
+    <ion-item>
+      <img src="../../assets/ray.png" alt="Imagen" width="300">
+    </ion-item>
+    <ion-item>
+      <b>Nombre:</b> Raynier Perez Minyety
+    </ion-item>
+    <ion-item>
+      <b>Matricula: </b> #2021-0218
+    </ion-item>
+  </ion-list>  
 </ion-content>
